@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100dvw;
+    height: 100dvh;
+
+    display: flex;
+
+    background-color: #000013;
+    background-image: url('../assets/background.png');
+
+    div {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+#title-page {
+    font-family: "Outfit", sans-serif;
+    flex-direction: column;
+    align-items: center;
+    color: #f9f9f9;
+    justify-content: center;
+    text-align: start;
+}
+
+.main-title-page {
+    max-width: 380px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title-page h1 {
+    font-size: 40px;
+}
+
+.main-title-page p {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.main-title-page section {
+    display: flex;
+    gap: 1rem;
+    margin-top: 32px;
+
+    button {
+        background-color: #151557;
+        padding: 12px 24px;
+        color: #f9f9f9;
+        border-radius: 999px;
+        border: none;
+        line-height: 140%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+}
+
+#not-found {
+    align-items: center;
+    justify-content: start;
+
+    section {
+        max-width: 407px;
+        max-height: 230px;
+        display: flex;
+        align-items: center;
+
+        div {
+            flex: 1;
+        }
+
+        #planet {
+            flex: 3;
+        }
+
+        img {
+            height: auto;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+}
